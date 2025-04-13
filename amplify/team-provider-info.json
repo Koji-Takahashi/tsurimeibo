@@ -1,0 +1,29 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-tsurimeibo-staging-12839-authRole",
+      "UnauthRoleArn": "arn:aws:iam::662502174305:role/amplify-tsurimeibo-staging-12839-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::662502174305:role/amplify-tsurimeibo-staging-12839-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-tsurimeibo-staging-12839-deployment",
+      "UnauthRoleName": "amplify-tsurimeibo-staging-12839-unauthRole",
+      "StackName": "amplify-tsurimeibo-staging-12839",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:662502174305:stack/amplify-tsurimeibo-staging-12839/7db009b0-1804-11f0-a473-061c720ad767",
+      "AmplifyAppId": "d26hlyzixbfex4"
+    },
+    "categories": {
+      "auth": {
+        "tsurimeibo": {}
+      },
+      "api": {
+        "tsurimeibo": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d26hlyzixbfex4",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}

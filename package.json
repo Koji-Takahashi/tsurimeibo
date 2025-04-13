@@ -9,9 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@aws-amplify/ui-react": "^6.5.5",
-    "aws-amplify": "^6.6.6",
+    "@aws-amplify/api": "^6.3.9",
+    "@aws-amplify/datastore": "^5.0.80",
+    "@aws-amplify/ui-react": "^6.11.0",
+    "aws-amplify": "^6.14.2",
+    "graphql": "^15.10.1",
+    "html5-qrcode": "^2.3.8",
     "next": "14.2.10",
+    "qrcode.react": "^4.2.0",
     "react": "^18",
     "react-dom": "^18"
   },

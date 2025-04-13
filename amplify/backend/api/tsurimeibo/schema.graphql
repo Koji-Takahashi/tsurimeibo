@@ -1,0 +1,15 @@
+type ScanRecord @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  userId: String!
+  timestamp: AWSDateTime!
+  memo: String
+  userName: String
+  email: String
+}
+
+type User @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  userName: String
+  email: String
+}
+ 
